@@ -6,5 +6,6 @@ then
 fi
 echo "Starting CUPS in background..."
 /etc/init.d/dbus start
+/etc/init.d/xinetd start
 #/etc/init.d/cups start
 /usr/sbin/cupsd -f
